@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "426db443-35cf-48ce-be47-fb8c35185a26",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "426db443-35cf-48ce-be47-fb8c35185a26@6c48a",
+      "displayName": "terrain_0_g",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "426db443-35cf-48ce-be47-fb8c35185a26",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "redirect": "426db443-35cf-48ce-be47-fb8c35185a26@6c48a",
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "1646jVmE5KLb7eJVTKBua9"
+    },
+    "fixAlphaTransparencyArtifacts": false
+  }
+}

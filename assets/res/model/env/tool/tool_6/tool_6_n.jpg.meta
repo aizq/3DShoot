@@ -1,0 +1,45 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "832697eb-c3b7-4cd0-a62b-f187969efa8c",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "832697eb-c3b7-4cd0-a62b-f187969efa8c@6c48a",
+      "displayName": "tool_6_n",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "832697eb-c3b7-4cd0-a62b-f187969efa8c",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "redirect": "832697eb-c3b7-4cd0-a62b-f187969efa8c@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true
+    },
+    "fixAlphaTransparencyArtifacts": false
+  }
+}

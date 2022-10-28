@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5",
+  "files": [],
+  "subMetas": {
+    "2dab1": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@2dab1",
+      "displayName": "",
+      "id": "2dab1",
+      "name": "main_xi_main_xi-002-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f96ab": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@f96ab",
+      "displayName": "",
+      "id": "f96ab",
+      "name": "main_xi_main_xi-002-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "45d7d": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@45d7d",
+      "displayName": "",
+      "id": "45d7d",
+      "name": "main_xi_main_xi-002-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8bc1": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@b8bc1",
+      "displayName": "",
+      "id": "b8bc1",
+      "name": "main_xi_main_xi-002-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7912b": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@7912b",
+      "displayName": "",
+      "id": "7912b",
+      "name": "main_xi_main_xi-002-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7afa6": {
+      "importer": "gltf-mesh",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@7afa6",
+      "displayName": "",
+      "id": "7afa6",
+      "name": "UCX_main_xi_main_xi-002-5.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8df31": {
+      "importer": "gltf-material",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@8df31",
+      "displayName": "",
+      "id": "8df31",
+      "name": "None_011.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b49d3": {
+      "importer": "gltf-scene",
+      "uuid": "d5440083-7822-48ca-ac2c-16fe403e43d5@b49d3",
+      "displayName": "",
+      "id": "b49d3",
+      "name": "xi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "d5440083-7822-48ca-ac2c-16fe403e43d5@b49d3",
+    "assetFinder": {
+      "meshes": [
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@2dab1",
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@f96ab",
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@45d7d",
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@b8bc1",
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@7912b",
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@7afa6"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@8df31"
+      ],
+      "scenes": [
+        "d5440083-7822-48ca-ac2c-16fe403e43d5@b49d3"
+      ]
+    }
+  }
+}

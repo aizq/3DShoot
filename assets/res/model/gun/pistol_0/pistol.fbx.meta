@@ -1,0 +1,350 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4",
+  "files": [],
+  "subMetas": {
+    "1dd1d": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1dd1d",
+      "displayName": "",
+      "id": "1dd1d",
+      "name": "WPN_M9_网格.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9412": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@f9412",
+      "displayName": "",
+      "id": "f9412",
+      "name": "WPN_M9_Slide_网格.001.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5cf84": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@5cf84",
+      "displayName": "",
+      "id": "5cf84",
+      "name": "WPN_M9_Hammer_网格.002.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "576f4": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@576f4",
+      "displayName": "",
+      "id": "576f4",
+      "name": "WPN_M9_trigger_网格.003.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "02fed": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@02fed",
+      "displayName": "",
+      "id": "02fed",
+      "name": "WPN_M9_magazine_网格.004.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d29d": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@8d29d",
+      "displayName": "",
+      "id": "8d29d",
+      "name": "WPN_M9_barrel_网格.005.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "056ff": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@056ff",
+      "displayName": "",
+      "id": "056ff",
+      "name": "cal_9mm_网格.006.mesh",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6760c": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@6760c",
+      "displayName": "",
+      "id": "6760c",
+      "name": "cal_9mm.001_网格.007.mesh",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1fbe5": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1fbe5",
+      "displayName": "",
+      "id": "1fbe5",
+      "name": "cal_9mm.002_网格.008.mesh",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f3b3": {
+      "importer": "gltf-mesh",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@4f3b3",
+      "displayName": "",
+      "id": "4f3b3",
+      "name": "cal_9mm.003_网格.009.mesh",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "1bbb1": {
+      "importer": "gltf-embeded-image",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1bbb1",
+      "displayName": "",
+      "id": "1bbb1",
+      "name": "normalmap_texture.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "400be": {
+      "importer": "texture",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@400be",
+      "displayName": "",
+      "id": "400be",
+      "name": "normalmap_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1bbb1"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78a1d": {
+      "importer": "gltf-material",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@78a1d",
+      "displayName": "",
+      "id": "78a1d",
+      "name": "01_-_Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5817c": {
+      "importer": "gltf-material",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@5817c",
+      "displayName": "",
+      "id": "5817c",
+      "name": "WPNM_calibers.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a6be": {
+      "importer": "gltf-scene",
+      "uuid": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@6a6be",
+      "displayName": "",
+      "id": "6a6be",
+      "name": "pistol.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@48b02"
+      },
+      {
+        "name": "normalmap_texture",
+        "uri": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1bbb1"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@6a6be",
+    "assetFinder": {
+      "meshes": [
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1dd1d",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@f9412",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@5cf84",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@576f4",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@02fed",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@8d29d",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@056ff",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@6760c",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@1fbe5",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@4f3b3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@7d6ab",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@400be"
+      ],
+      "materials": [
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@78a1d",
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@5817c"
+      ],
+      "scenes": [
+        "693cbdf5-97a0-4d40-ba3d-bbe7b8469fd4@6a6be"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

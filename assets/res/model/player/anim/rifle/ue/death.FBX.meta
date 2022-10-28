@@ -1,0 +1,83 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bfd4c9ae-85b7-4c95-b823-f2531445ebff",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c52b3": {
+      "importer": "gltf-animation",
+      "uuid": "bfd4c9ae-85b7-4c95-b823-f2531445ebff@c52b3",
+      "displayName": "",
+      "id": "c52b3",
+      "name": "death.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.8333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "15e6b": {
+      "importer": "gltf-scene",
+      "uuid": "bfd4c9ae-85b7-4c95-b823-f2531445ebff@15e6b",
+      "displayName": "",
+      "id": "15e6b",
+      "name": "death.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 3.8333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "death",
+            "from": 0,
+            "to": 3.8333332538604736,
+            "wrapMode": 0
+          }
+        ]
+      }
+    ],
+    "redirect": "bfd4c9ae-85b7-4c95-b823-f2531445ebff@15e6b",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bfd4c9ae-85b7-4c95-b823-f2531445ebff@15e6b"
+      ]
+    }
+  }
+}

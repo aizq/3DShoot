@@ -1,0 +1,108 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "11586631-dcf7-4493-b84b-59608f20ebc8",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "989ed": {
+      "importer": "gltf-animation",
+      "uuid": "11586631-dcf7-4493-b84b-59608f20ebc8@989ed",
+      "displayName": "",
+      "id": "989ed",
+      "name": "attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.2666666507720947
+        },
+        "events": [
+          {
+            "frame": 0.7666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.7666666666666667,
+            "func": "startAttack",
+            "params": []
+          },
+          {
+            "frame": 0.8666666666666667,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 0.8666666666666667,
+            "func": "endAttack",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2a3cc": {
+      "importer": "gltf-scene",
+      "uuid": "11586631-dcf7-4493-b84b-59608f20ebc8@2a3cc",
+      "displayName": "",
+      "id": "2a3cc",
+      "name": "attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 2.2666666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack",
+            "from": 0,
+            "to": 2.2666666507720947,
+            "wrapMode": 0
+          }
+        ]
+      }
+    ],
+    "redirect": "11586631-dcf7-4493-b84b-59608f20ebc8@2a3cc",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "11586631-dcf7-4493-b84b-59608f20ebc8@2a3cc"
+      ]
+    }
+  }
+}

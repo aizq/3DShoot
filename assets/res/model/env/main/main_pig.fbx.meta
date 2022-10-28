@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7a390a23-c3e0-4244-8e77-f1b66e2501f8",
+  "files": [],
+  "subMetas": {
+    "22d38": {
+      "importer": "gltf-mesh",
+      "uuid": "7a390a23-c3e0-4244-8e77-f1b66e2501f8@22d38",
+      "displayName": "",
+      "id": "22d38",
+      "name": "main_pig.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "7a390a23-c3e0-4244-8e77-f1b66e2501f8@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d69b0": {
+      "importer": "gltf-scene",
+      "uuid": "7a390a23-c3e0-4244-8e77-f1b66e2501f8@d69b0",
+      "displayName": "",
+      "id": "d69b0",
+      "name": "main_pig.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "7a390a23-c3e0-4244-8e77-f1b66e2501f8@d69b0",
+    "assetFinder": {
+      "meshes": [
+        "7a390a23-c3e0-4244-8e77-f1b66e2501f8@22d38"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7a390a23-c3e0-4244-8e77-f1b66e2501f8@2deab"
+      ],
+      "scenes": [
+        "7a390a23-c3e0-4244-8e77-f1b66e2501f8@d69b0"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

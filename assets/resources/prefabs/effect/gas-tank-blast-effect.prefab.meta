@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "6a80b5ec-e884-4eb3-88a5-825135330927",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "gas-tank-blast-effect",
+    "loadMode": "2"
+  }
+}

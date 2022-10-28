@@ -1,0 +1,152 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a",
+  "files": [],
+  "subMetas": {
+    "4fb51": {
+      "importer": "gltf-mesh",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@4fb51",
+      "displayName": "",
+      "id": "4fb51",
+      "name": "yumi-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "677fd": {
+      "importer": "gltf-mesh",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@677fd",
+      "displayName": "",
+      "id": "677fd",
+      "name": "yumi-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8ddf": {
+      "importer": "gltf-mesh",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@e8ddf",
+      "displayName": "",
+      "id": "e8ddf",
+      "name": "yumi-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a81f": {
+      "importer": "gltf-mesh",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@0a81f",
+      "displayName": "",
+      "id": "0a81f",
+      "name": "yumi-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "996b8": {
+      "importer": "gltf-mesh",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@996b8",
+      "displayName": "",
+      "id": "996b8",
+      "name": "UCX_yumi-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "039bc": {
+      "importer": "gltf-material",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@039bc",
+      "displayName": "",
+      "id": "039bc",
+      "name": "WorldGridMaterial.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3bd0a": {
+      "importer": "gltf-scene",
+      "uuid": "1ece3897-1a40-448f-942a-7e00716c1f8a@3bd0a",
+      "displayName": "",
+      "id": "3bd0a",
+      "name": "yumi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "1ece3897-1a40-448f-942a-7e00716c1f8a@3bd0a",
+    "assetFinder": {
+      "meshes": [
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@4fb51",
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@677fd",
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@e8ddf",
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@0a81f",
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@996b8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@039bc"
+      ],
+      "scenes": [
+        "1ece3897-1a40-448f-942a-7e00716c1f8a@3bd0a"
+      ]
+    }
+  }
+}

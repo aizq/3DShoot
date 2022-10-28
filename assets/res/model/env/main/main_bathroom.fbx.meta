@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0a7b131a-f11b-499c-bf37-2a72ef7517a9",
+  "files": [],
+  "subMetas": {
+    "31992": {
+      "importer": "gltf-scene",
+      "uuid": "0a7b131a-f11b-499c-bf37-2a72ef7517a9@31992",
+      "displayName": "",
+      "id": "31992",
+      "name": "main_bathroom.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "68171": {
+      "importer": "gltf-mesh",
+      "uuid": "0a7b131a-f11b-499c-bf37-2a72ef7517a9@68171",
+      "displayName": "",
+      "id": "68171",
+      "name": "main_bathroom.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "0a7b131a-f11b-499c-bf37-2a72ef7517a9@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "0a7b131a-f11b-499c-bf37-2a72ef7517a9@31992",
+    "assetFinder": {
+      "meshes": [
+        "0a7b131a-f11b-499c-bf37-2a72ef7517a9@68171"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0a7b131a-f11b-499c-bf37-2a72ef7517a9@2deab"
+      ],
+      "scenes": [
+        "0a7b131a-f11b-499c-bf37-2a72ef7517a9@31992"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

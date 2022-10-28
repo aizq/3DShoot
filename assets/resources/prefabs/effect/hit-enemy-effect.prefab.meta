@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "c995f037-bcab-4fbd-83e6-1709592eb8fa",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "hit-enemy-effect",
+    "loadMode": "2"
+  }
+}

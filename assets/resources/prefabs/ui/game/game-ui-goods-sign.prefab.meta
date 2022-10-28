@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "a234d3e2-874b-4c9a-8988-240febccbdd5",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "game-ui-goods-sign",
+    "loadMode": "2"
+  }
+}

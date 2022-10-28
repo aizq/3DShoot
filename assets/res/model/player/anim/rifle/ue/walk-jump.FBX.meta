@@ -1,0 +1,85 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d38e29ff-9934-419c-a881-64d23f3704e2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "17751": {
+      "importer": "gltf-animation",
+      "uuid": "d38e29ff-9934-419c-a881-64d23f3704e2@17751",
+      "displayName": "",
+      "id": "17751",
+      "name": "walk-jump.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 1.6666666666666667,
+          "to": 2.6
+        },
+        "events": [],
+        "speed": 1.3
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "27cae": {
+      "importer": "gltf-scene",
+      "uuid": "d38e29ff-9934-419c-a881-64d23f3704e2@27cae",
+      "displayName": "",
+      "id": "27cae",
+      "name": "walk-jump.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 3.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk-jump",
+            "from": 1.6666666666666667,
+            "to": 2.6,
+            "wrapMode": 0,
+            "speed": 1.3
+          }
+        ]
+      }
+    ],
+    "redirect": "d38e29ff-9934-419c-a881-64d23f3704e2@27cae",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "d38e29ff-9934-419c-a881-64d23f3704e2@27cae"
+      ]
+    }
+  }
+}

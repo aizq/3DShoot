@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8e73d790-df9e-466f-9b8b-98183217ec50",
+  "files": [],
+  "subMetas": {
+    "561f3": {
+      "importer": "gltf-mesh",
+      "uuid": "8e73d790-df9e-466f-9b8b-98183217ec50@561f3",
+      "displayName": "",
+      "id": "561f3",
+      "name": "GasTank1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "20f1c": {
+      "importer": "gltf-material",
+      "uuid": "8e73d790-df9e-466f-9b8b-98183217ec50@20f1c",
+      "displayName": "",
+      "id": "20f1c",
+      "name": "GasTank.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3309e": {
+      "importer": "gltf-scene",
+      "uuid": "8e73d790-df9e-466f-9b8b-98183217ec50@3309e",
+      "displayName": "",
+      "id": "3309e",
+      "name": "meiqiguan_lod_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "8e73d790-df9e-466f-9b8b-98183217ec50@3309e",
+    "assetFinder": {
+      "meshes": [
+        "8e73d790-df9e-466f-9b8b-98183217ec50@561f3"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8e73d790-df9e-466f-9b8b-98183217ec50@20f1c"
+      ],
+      "scenes": [
+        "8e73d790-df9e-466f-9b8b-98183217ec50@3309e"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

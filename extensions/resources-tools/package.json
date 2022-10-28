@@ -1,0 +1,40 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "resources-tools",
+    "description": "i18n:resources-tools.description",
+    "main": "./dist/main.js",
+    "dependencies": {
+        "vue": "2.6.14",
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.1",
+        "@types/fs-extra": "^9.0.5",
+        "typescript": "^4.3.4"
+    },
+    "panels": {},
+    "contributions": {
+        "menu": [],
+        "messages": {},
+        "inspector": {
+            "section": {
+                "asset": {
+                    "prefab": "./dist/resources-tools/resources.js",
+                    "json": "./dist/resources-tools/resources.js",
+                    "image": "./dist/resources-tools/resources.js",
+                    "material": "./dist/resources-tools/resources.js",
+                    "audio-clip": "./dist/resources-tools/resources.js",
+                    "texture-cube": "./dist/resources-tools/resources.js",
+                    "buffer": "./dist/resources-tools/resources.js"
+                }
+            }
+        }
+    },
+    "author": "杨宗宝",
+    "editor": ">=3.6.0",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    }
+}

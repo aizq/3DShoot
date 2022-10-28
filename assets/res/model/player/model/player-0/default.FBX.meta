@@ -1,0 +1,251 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "5b2cb": {
+      "importer": "gltf-mesh",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@5b2cb",
+      "displayName": "",
+      "id": "5b2cb",
+      "name": "MW_Style2_Male.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "083c5": {
+      "importer": "gltf-animation",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@083c5",
+      "displayName": "",
+      "id": "083c5",
+      "name": "Unreal Take.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.200000047683716
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 68
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41cee": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@41cee",
+      "displayName": "",
+      "id": "41cee",
+      "name": "MW_Style2_Male_Norm.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "b4530": {
+      "importer": "texture",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@b4530",
+      "displayName": "",
+      "id": "b4530",
+      "name": "MW_Style2_Male_Norm.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@41cee"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d847": {
+      "importer": "gltf-material",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@5d847",
+      "displayName": "",
+      "id": "5d847",
+      "name": "M_CharacterM2_Inst.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6acb": {
+      "importer": "gltf-scene",
+      "uuid": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@a6acb",
+      "displayName": "",
+      "id": "a6acb",
+      "name": "default.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "MW_Style2_Male_Norm",
+        "uri": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@41cee"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 2.200000047683716,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Unreal Take",
+            "from": 0,
+            "to": 2.200000047683716,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "8966209f-feba-4bd9-8fa5-4e7bea2d3077@a6acb",
+    "assetFinder": {
+      "meshes": [
+        "8966209f-feba-4bd9-8fa5-4e7bea2d3077@5b2cb"
+      ],
+      "skeletons": [
+        "8966209f-feba-4bd9-8fa5-4e7bea2d3077@438fe"
+      ],
+      "textures": [
+        "8966209f-feba-4bd9-8fa5-4e7bea2d3077@b4530"
+      ],
+      "materials": [
+        "8966209f-feba-4bd9-8fa5-4e7bea2d3077@5d847"
+      ],
+      "scenes": [
+        "8966209f-feba-4bd9-8fa5-4e7bea2d3077@a6acb"
+      ]
+    },
+    "materials": {
+      "8966209f-feba-4bd9-8fa5-4e7bea2d3077@5d847": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "roughness": 1,
+            "metallic": 0,
+            "mainTexture": {
+              "__uuid__": "a0144e03-6fdd-4aa3-982c-4bbc5e450dc2@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "normalMap": {
+              "__uuid__": "a0144e03-6fdd-4aa3-982c-4bbc5e450dc2@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

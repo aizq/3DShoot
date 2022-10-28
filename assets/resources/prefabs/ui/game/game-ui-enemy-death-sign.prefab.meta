@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "ec678942-3b21-481d-93a8-ac26acb18ef5",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "game-ui-enemy-death-sign",
+    "loadMode": "2"
+  }
+}

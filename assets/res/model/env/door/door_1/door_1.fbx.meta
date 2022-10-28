@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "538a9f8e-c35c-451b-a49a-24f7f0c05a08",
+  "files": [],
+  "subMetas": {
+    "57550": {
+      "importer": "gltf-scene",
+      "uuid": "538a9f8e-c35c-451b-a49a-24f7f0c05a08@57550",
+      "displayName": "",
+      "id": "57550",
+      "name": "door_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8162": {
+      "importer": "gltf-mesh",
+      "uuid": "538a9f8e-c35c-451b-a49a-24f7f0c05a08@b8162",
+      "displayName": "",
+      "id": "b8162",
+      "name": "pCube1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "538a9f8e-c35c-451b-a49a-24f7f0c05a08@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "538a9f8e-c35c-451b-a49a-24f7f0c05a08@57550",
+    "assetFinder": {
+      "meshes": [
+        "538a9f8e-c35c-451b-a49a-24f7f0c05a08@b8162"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "538a9f8e-c35c-451b-a49a-24f7f0c05a08@8d883"
+      ],
+      "scenes": [
+        "538a9f8e-c35c-451b-a49a-24f7f0c05a08@57550"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,136 @@
+// Effect Syntax Guide: https://github.com/cocos-creator/docs-3d/blob/master/zh/material-system/effect-syntax.md
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        color: { value: [1, 1, 1, 1], editor: { type: color } }
+        top:    { value: white }
+        bottom:    { value: white }
+        right:    { value: white }
+        left:    { value: white }
+        front:    { value: white }
+        back:    { value: white }
+  - name: transparent
+    passes:
+    - vert: unlit-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+CCProgram unlit-vs %{ 
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/decode-base>
+  #include <legacy/decode-base>
+  #include <legacy/local-batch>
+  #include <legacy/input-standard>
+  #include <legacy/fog-vs>
+  #include <legacy/shadow-map-vs>
+  
+
+  in vec4 a_color;
+  #if HAS_SECOND_UV
+    in vec2 a_texCoord1;
+  #endif
+
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec3 v_tangent;
+  out vec3 v_bitangent;
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out vec4 v_color;
+  out vec3 normal;
+
+  vec4 vert () {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    vec4 pos = matWorld * In.position;
+    normal= normalize(In.normal.xyz);
+    v_position = (matWorld * In.position).xyz;
+    v_normal = normalize((matWorldIT * vec4(In.normal, 0.0)).xyz);
+    v_tangent = normalize((matWorld * vec4(In.tangent.xyz, 0.0)).xyz);
+    v_bitangent = cross(v_normal, v_tangent) * In.tangent.w; // note the cross order
+
+    v_uv = a_texCoord;
+    #if HAS_SECOND_UV
+      v_uv1 = a_texCoord1;
+    #endif
+    
+    v_color = a_color;
+
+    CC_TRANSFER_FOG(pos);
+    CC_TRANSFER_SHADOW(pos);
+
+    return cc_matProj * (cc_matView * matWorld) * In.position;
+  }
+
+}%
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+
+  in vec2 v_uv;
+  in vec3 normal;
+  in vec3 v_normal;
+  in vec3 v_position;
+
+  uniform sampler2D top;
+  uniform sampler2D bottom;
+  uniform sampler2D right;
+  uniform sampler2D left;
+  uniform sampler2D front;
+  uniform sampler2D back;
+
+  uniform Constant{
+    vec4 color;
+  };
+ 
+  
+  vec4 frag () {
+    //对噪声纹理图进行采样
+    vec4 col =vec4(1.0,1.0,1.0,1.0);
+
+    if(normal.x>0.0){
+      col =  texture(right, v_uv);
+    }else if(normal.x<0.0){
+      col =  texture(left, v_uv);
+    }else if(normal.y>0.0){
+      vec2 uv=v_uv;
+      uv.y=1.0-uv.y;
+      uv.x=1.0-uv.x;
+      col =  texture(top, uv);
+    }else if(normal.y<0.0){
+      vec2 uv=v_uv;
+      uv.y=1.0-uv.y;
+      uv.x=1.0-uv.x;
+      col =  texture(bottom, uv);
+    }else if(normal.z>0.0){
+      vec2 uv=v_uv;
+      uv.y=1.0-uv.y;
+      uv.x=1.0-uv.x;
+      col =  texture(front,uv);
+    }else if(normal.z<0.0){
+      col =  texture(back, v_uv);
+    }
+    col*=color;
+    CC_APPLY_FOG(col);
+    return CCFragOutput(col);
+  }
+}%

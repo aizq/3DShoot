@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "3bf27658-0951-4cde-bd52-331706dc8956",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    },
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 216,
+        "g": 216,
+        "b": 216,
+        "a": 255
+      },
+      "roughness": 0.815,
+      "metallic": 0.582,
+      "specularIntensity": 1,
+      "mainTexture": {
+        "__uuid__": "9c3d24ba-c3ea-4c16-9ad7-1be90e3aaccb@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_sample_0": {
+        "__uuid__": "e939f74f-0451-49e5-8b01-64c11139e4dc@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_r": {
+        "__uuid__": "e923dd4d-ba2c-4b91-a259-1ab5182bf7a1@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_r_n": {
+        "__uuid__": "f251bbe4-ffe1-4599-abcf-c6fc2cce5cc6@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_g": {
+        "__uuid__": "426db443-35cf-48ce-be47-fb8c35185a26@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_g_n": {
+        "__uuid__": "0e09d621-78f5-48c1-bf91-fff6f62339bd@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_b": {
+        "__uuid__": "6387c258-43c3-40f3-a9a3-0ca83ada4900@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "terrain_0_b_n": {
+        "__uuid__": "ae218333-c020-4bf0-bcae-f3bc91e084ec@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      }
+    },
+    {},
+    {}
+  ]
+}

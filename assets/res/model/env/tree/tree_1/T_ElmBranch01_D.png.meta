@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a5a8a2c8-1b48-4ced-9986-a285eb5b2334",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a5a8a2c8-1b48-4ced-9986-a285eb5b2334@6c48a",
+      "displayName": "T_ElmBranch01_D",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a5a8a2c8-1b48-4ced-9986-a285eb5b2334",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "a5a8a2c8-1b48-4ced-9986-a285eb5b2334@6c48a",
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "transparent"
+    }
+  }
+}

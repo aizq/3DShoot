@@ -1,0 +1,416 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94641": {
+      "importer": "texture",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@94641",
+      "displayName": "",
+      "id": "94641",
+      "name": "EnvSamplerTex-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1001_Normal.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "346f1": {
+      "importer": "gltf-mesh",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@346f1",
+      "displayName": "",
+      "id": "346f1",
+      "name": "Zombie_Idle_LOD0_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "623a5": {
+      "importer": "gltf-mesh",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@623a5",
+      "displayName": "",
+      "id": "623a5",
+      "name": "Zombie_Idle_LOD1_Material0.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e001d": {
+      "importer": "gltf-mesh",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@e001d",
+      "displayName": "",
+      "id": "e001d",
+      "name": "Zombie_Idle_LOD2_Material0.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af31f": {
+      "importer": "gltf-mesh",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@af31f",
+      "displayName": "",
+      "id": "af31f",
+      "name": "Zombie_Idle_LOD3_Material0.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d23bf": {
+      "importer": "gltf-mesh",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@d23bf",
+      "displayName": "",
+      "id": "d23bf",
+      "name": "Zombie_Idle_LOD4_Material0.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d947b": {
+      "importer": "gltf-animation",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@d947b",
+      "displayName": "",
+      "id": "d947b",
+      "name": "scream.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "speed": 3,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.94
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a72ab": {
+      "importer": "gltf-skeleton",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@a72ab",
+      "displayName": "",
+      "id": "a72ab",
+      "name": "UnnamedSkeleton-3.skeleton",
+      "userData": {
+        "gltfIndex": 3,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2224c": {
+      "importer": "gltf-skeleton",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@2224c",
+      "displayName": "",
+      "id": "2224c",
+      "name": "UnnamedSkeleton-4.skeleton",
+      "userData": {
+        "gltfIndex": 4,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "931ff": {
+      "importer": "texture",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@931ff",
+      "displayName": "",
+      "id": "931ff",
+      "name": "EnvSamplerTex-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1001_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d081": {
+      "importer": "texture",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@2d081",
+      "displayName": "",
+      "id": "2d081",
+      "name": "EnvSamplerTex-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1002_Diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8fc53": {
+      "importer": "texture",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@8fc53",
+      "displayName": "",
+      "id": "8fc53",
+      "name": "EnvSamplerTex-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1002_Normal.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "992b3": {
+      "importer": "gltf-material",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@992b3",
+      "displayName": "",
+      "id": "992b3",
+      "name": "Ch10_body.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a088": {
+      "importer": "gltf-material",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@6a088",
+      "displayName": "",
+      "id": "6a088",
+      "name": "Ch10_body1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c968e": {
+      "importer": "gltf-scene",
+      "uuid": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@c968e",
+      "displayName": "",
+      "id": "c968e",
+      "name": "scream.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1001_Diffuse.png"
+      },
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1001_Normal.png"
+      },
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1002_Diffuse.png"
+      },
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_bald/Ch10_1002_Normal.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "scream",
+            "from": 0,
+            "to": 3.94,
+            "wrapMode": 0,
+            "speed": 3
+          }
+        ]
+      }
+    ],
+    "redirect": "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@c968e",
+    "assetFinder": {
+      "meshes": [
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@346f1",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@623a5",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@e001d",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@af31f",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@d23bf"
+      ],
+      "skeletons": [
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@30732",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@f1394",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@75ee4",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@a72ab",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@2224c"
+      ],
+      "textures": [
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@931ff",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@94641",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@2d081",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@8fc53"
+      ],
+      "materials": [
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@992b3",
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@6a088"
+      ],
+      "scenes": [
+        "52a3f08b-0e20-43ab-87e0-d7e11ab38f74@c968e"
+      ]
+    },
+    "disableMeshSplit": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d",
+  "files": [],
+  "subMetas": {
+    "33256": {
+      "importer": "gltf-material",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@33256",
+      "displayName": "",
+      "id": "33256",
+      "name": "None_014.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6d17": {
+      "importer": "gltf-mesh",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@d6d17",
+      "displayName": "",
+      "id": "d6d17",
+      "name": "vegetable_garden_vegetable_garden_001-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16ae1": {
+      "importer": "gltf-mesh",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@16ae1",
+      "displayName": "",
+      "id": "16ae1",
+      "name": "vegetable_garden_vegetable_garden_001-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2310": {
+      "importer": "gltf-mesh",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@f2310",
+      "displayName": "",
+      "id": "f2310",
+      "name": "vegetable_garden_vegetable_garden_001-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "92b8c": {
+      "importer": "gltf-mesh",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@92b8c",
+      "displayName": "",
+      "id": "92b8c",
+      "name": "vegetable_garden_vegetable_garden_001-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d9380": {
+      "importer": "gltf-mesh",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@d9380",
+      "displayName": "",
+      "id": "d9380",
+      "name": "UCX_vegetable_garden_vegetable_garden_001-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce675": {
+      "importer": "gltf-scene",
+      "uuid": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@ce675",
+      "displayName": "",
+      "id": "ce675",
+      "name": "vegetable_garden.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@ce675",
+    "assetFinder": {
+      "meshes": [
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@d6d17",
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@16ae1",
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@f2310",
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@92b8c",
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@d9380"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@33256"
+      ],
+      "scenes": [
+        "a4074a1e-d7f2-4a65-911b-ec9cb5b9be5d@ce675"
+      ]
+    }
+  }
+}

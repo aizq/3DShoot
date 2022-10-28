@@ -1,0 +1,289 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e",
+  "files": [],
+  "subMetas": {
+    "e08bd": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@e08bd",
+      "displayName": "",
+      "id": "e08bd",
+      "name": "Cylinder01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d5bc": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@7d5bc",
+      "displayName": "",
+      "id": "7d5bc",
+      "name": "Plane01.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cc970": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@cc970",
+      "displayName": "",
+      "id": "cc970",
+      "name": "Cylinder02.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b98b1": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@b98b1",
+      "displayName": "",
+      "id": "b98b1",
+      "name": "Cylinder03.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa855": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@aa855",
+      "displayName": "",
+      "id": "aa855",
+      "name": "Cylinder04.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5664": {
+      "importer": "gltf-mesh",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@b5664",
+      "displayName": "",
+      "id": "b5664",
+      "name": "Cylinder05.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2364": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@a2364",
+      "displayName": "",
+      "id": "a2364",
+      "name": "Map #1.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@a2364"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8008": {
+      "importer": "texture",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@f8008",
+      "displayName": "",
+      "id": "f8008",
+      "name": "Map #4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/env/huo_dui/dimian.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b9e5": {
+      "importer": "texture",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@6b9e5",
+      "displayName": "",
+      "id": "6b9e5",
+      "name": "Map #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/env/huo_dui/dimian.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db4d2": {
+      "importer": "gltf-material",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@db4d2",
+      "displayName": "",
+      "id": "db4d2",
+      "name": "02 - Default.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97a8f": {
+      "importer": "gltf-scene",
+      "uuid": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@97a8f",
+      "displayName": "",
+      "id": "97a8f",
+      "name": "huo_dui_lod_3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1",
+        "uri": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@a2364"
+      },
+      {
+        "name": "Map #4",
+        "uri": "db://assets/res/model/env/huo_dui/dimian.png"
+      },
+      {
+        "name": "Map #3",
+        "uri": "db://assets/res/model/env/huo_dui/dimian.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@97a8f",
+    "assetFinder": {
+      "meshes": [
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@e08bd",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@7d5bc",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@cc970",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@b98b1",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@aa855",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@b5664"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@6e70c",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@f8008",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@6b9e5"
+      ],
+      "materials": [
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@9d093",
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@db4d2"
+      ],
+      "scenes": [
+        "8d32d6ad-4da7-41e7-8c0f-6da3cafd4d4e@97a8f"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "61be752d-2dea-46b3-add4-78be6b792738",
+  "files": [],
+  "subMetas": {
+    "bb748": {
+      "importer": "gltf-mesh",
+      "uuid": "61be752d-2dea-46b3-add4-78be6b792738@bb748",
+      "displayName": "",
+      "id": "bb748",
+      "name": "spinach-001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d71": {
+      "importer": "gltf-material",
+      "uuid": "61be752d-2dea-46b3-add4-78be6b792738@18d71",
+      "displayName": "",
+      "id": "18d71",
+      "name": "None.008.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1ed0e": {
+      "importer": "gltf-scene",
+      "uuid": "61be752d-2dea-46b3-add4-78be6b792738@1ed0e",
+      "displayName": "",
+      "id": "1ed0e",
+      "name": "spinach_lod_3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "61be752d-2dea-46b3-add4-78be6b792738@1ed0e",
+    "assetFinder": {
+      "meshes": [
+        "61be752d-2dea-46b3-add4-78be6b792738@bb748"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "61be752d-2dea-46b3-add4-78be6b792738@18d71"
+      ],
+      "scenes": [
+        "61be752d-2dea-46b3-add4-78be6b792738@1ed0e"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

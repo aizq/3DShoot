@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ba07b291-44e9-4313-bb91-a656f86066d8",
+  "files": [],
+  "subMetas": {
+    "2ae0d": {
+      "importer": "gltf-mesh",
+      "uuid": "ba07b291-44e9-4313-bb91-a656f86066d8@2ae0d",
+      "displayName": "",
+      "id": "2ae0d",
+      "name": "wrench_lod3.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9165d": {
+      "importer": "gltf-material",
+      "uuid": "ba07b291-44e9-4313-bb91-a656f86066d8@9165d",
+      "displayName": "",
+      "id": "9165d",
+      "name": "wrench_LOD3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d9816": {
+      "importer": "gltf-scene",
+      "uuid": "ba07b291-44e9-4313-bb91-a656f86066d8@d9816",
+      "displayName": "",
+      "id": "d9816",
+      "name": "tool_6.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "ba07b291-44e9-4313-bb91-a656f86066d8@d9816",
+    "assetFinder": {
+      "meshes": [
+        "ba07b291-44e9-4313-bb91-a656f86066d8@2ae0d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "ba07b291-44e9-4313-bb91-a656f86066d8@9165d"
+      ],
+      "scenes": [
+        "ba07b291-44e9-4313-bb91-a656f86066d8@d9816"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "45a3c69d-6921-4134-b4b8-80ed398fe84f",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "game-ui-enemy",
+    "loadMode": "0"
+  }
+}

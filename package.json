@@ -1,0 +1,20 @@
+{
+  "creator": {
+    "version": "3.6.1"
+  },
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-plugin-vue": "^9.5.1"
+  },
+  "name": "main",
+  "scripts": {
+    "lint": "eslint  --ext .ts ./assets"
+  },
+  "type": "3d",
+  "uuid": "9893d651-cbe1-490b-9e28-622a9c931fc0"
+}

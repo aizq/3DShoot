@@ -1,0 +1,83 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f746335a-5917-4130-8fd3-9c0a7ae247fd",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "7f7bf": {
+      "importer": "gltf-animation",
+      "uuid": "f746335a-5917-4130-8fd3-9c0a7ae247fd@7f7bf",
+      "displayName": "",
+      "id": "7f7bf",
+      "name": "walk-aim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.1666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "00c76": {
+      "importer": "gltf-scene",
+      "uuid": "f746335a-5917-4130-8fd3-9c0a7ae247fd@00c76",
+      "displayName": "",
+      "id": "00c76",
+      "name": "walk-aim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 1.1666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk-aim",
+            "from": 0,
+            "to": 1.1666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "f746335a-5917-4130-8fd3-9c0a7ae247fd@00c76",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f746335a-5917-4130-8fd3-9c0a7ae247fd@00c76"
+      ]
+    }
+  }
+}

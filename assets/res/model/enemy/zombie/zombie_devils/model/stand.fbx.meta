@@ -1,0 +1,269 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94641": {
+      "importer": "texture",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@94641",
+      "displayName": "",
+      "id": "94641",
+      "name": "EnvSamplerTex-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_devils/Yakuzombie_diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba979": {
+      "importer": "gltf-mesh",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ba979",
+      "displayName": "",
+      "id": "ba979",
+      "name": "Zombie_Idle__1__LOD0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed4c5": {
+      "importer": "gltf-mesh",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ed4c5",
+      "displayName": "",
+      "id": "ed4c5",
+      "name": "Zombie_Idle__1__LOD1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce760": {
+      "importer": "gltf-mesh",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ce760",
+      "displayName": "",
+      "id": "ce760",
+      "name": "Zombie_Idle__1__LOD2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0969b": {
+      "importer": "gltf-animation",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@0969b",
+      "displayName": "",
+      "id": "0969b",
+      "name": "stand.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 65
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "931ff": {
+      "importer": "texture",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@931ff",
+      "displayName": "",
+      "id": "931ff",
+      "name": "EnvSamplerTex-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/model/enemy/zombie/zombie_devils/Yakuzombie_diffuse.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0eea6": {
+      "importer": "gltf-material",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@0eea6",
+      "displayName": "",
+      "id": "0eea6",
+      "name": "yaku_zombie_material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "162b8": {
+      "importer": "gltf-scene",
+      "uuid": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@162b8",
+      "displayName": "",
+      "id": "162b8",
+      "name": "stand.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_devils/Yakuzombie_diffuse.png"
+      },
+      {
+        "name": "EnvSamplerTex",
+        "uri": "db://assets/res/model/enemy/zombie/zombie_devils/Yakuzombie_diffuse.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "stand",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@162b8",
+    "assetFinder": {
+      "meshes": [
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ba979",
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ed4c5",
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@ce760"
+      ],
+      "skeletons": [
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@30732",
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@f1394",
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@75ee4"
+      ],
+      "textures": [
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@931ff",
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@94641"
+      ],
+      "materials": [
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@0eea6"
+      ],
+      "scenes": [
+        "882bf7f6-2207-4a09-b34e-3474b8cc7d4b@162b8"
+      ]
+    },
+    "disableMeshSplit": true
+  }
+}

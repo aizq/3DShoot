@@ -1,0 +1,98 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87",
+  "files": [],
+  "subMetas": {
+    "2be53": {
+      "importer": "gltf-mesh",
+      "uuid": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@2be53",
+      "displayName": "",
+      "id": "2be53",
+      "name": "Rectangle02.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51d47": {
+      "importer": "gltf-mesh",
+      "uuid": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@51d47",
+      "displayName": "",
+      "id": "51d47",
+      "name": "Rectangle01.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49b23": {
+      "importer": "gltf-material",
+      "uuid": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@49b23",
+      "displayName": "",
+      "id": "49b23",
+      "name": "Material #49.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fee4f": {
+      "importer": "gltf-scene",
+      "uuid": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@fee4f",
+      "displayName": "",
+      "id": "fee4f",
+      "name": "shizhuo_lod_3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@fee4f",
+    "assetFinder": {
+      "meshes": [
+        "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@2be53",
+        "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@51d47"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@49b23"
+      ],
+      "scenes": [
+        "a130d32c-5ec7-4af9-b9a6-d9fb481c2a87@fee4f"
+      ]
+    },
+    "disableMeshSplit": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

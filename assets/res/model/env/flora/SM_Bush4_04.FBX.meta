@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e",
+  "files": [],
+  "subMetas": {
+    "76648": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@76648",
+      "displayName": "",
+      "id": "76648",
+      "name": "SM_Bush4_04-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3296": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@e3296",
+      "displayName": "",
+      "id": "e3296",
+      "name": "SM_Bush4_04-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1d838": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@1d838",
+      "displayName": "",
+      "id": "1d838",
+      "name": "SM_Bush4_04-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dd111": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@dd111",
+      "displayName": "",
+      "id": "dd111",
+      "name": "SM_Bush4_04-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf044": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@cf044",
+      "displayName": "",
+      "id": "cf044",
+      "name": "SM_Bush4_04-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf009": {
+      "importer": "gltf-mesh",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@cf009",
+      "displayName": "",
+      "id": "cf009",
+      "name": "UCX_SM_Bush4_04-5.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "33cfe": {
+      "importer": "gltf-material",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@33cfe",
+      "displayName": "",
+      "id": "33cfe",
+      "name": "MI_Bush04.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "59e40": {
+      "importer": "gltf-scene",
+      "uuid": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@59e40",
+      "displayName": "",
+      "id": "59e40",
+      "name": "SM_Bush4_04.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@59e40",
+    "assetFinder": {
+      "meshes": [
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@76648",
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@e3296",
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@1d838",
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@dd111",
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@cf044",
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@cf009"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@33cfe"
+      ],
+      "scenes": [
+        "5562d8ac-c2ef-48b7-8235-34bcd4f1a99e@59e40"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76",
+  "files": [],
+  "subMetas": {
+    "42cf8": {
+      "importer": "gltf-mesh",
+      "uuid": "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@42cf8",
+      "displayName": "",
+      "id": "42cf8",
+      "name": "AM124_058_v002jianmo_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53f77": {
+      "importer": "gltf-material",
+      "uuid": "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@53f77",
+      "displayName": "",
+      "id": "53f77",
+      "name": "Material #332.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4830": {
+      "importer": "gltf-scene",
+      "uuid": "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@e4830",
+      "displayName": "",
+      "id": "e4830",
+      "name": "yumi_lod_2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@e4830",
+    "assetFinder": {
+      "meshes": [
+        "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@42cf8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@53f77"
+      ],
+      "scenes": [
+        "2bd70afc-1bf2-4929-ba75-e39c7bbe3a76@e4830"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

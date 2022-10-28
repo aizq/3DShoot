@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c99c3e74-3476-4a6d-9075-c9f30178df32",
+  "files": [],
+  "subMetas": {
+    "1df2c": {
+      "importer": "gltf-mesh",
+      "uuid": "c99c3e74-3476-4a6d-9075-c9f30178df32@1df2c",
+      "displayName": "",
+      "id": "1df2c",
+      "name": "hatchet_lod3.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "784b7": {
+      "importer": "gltf-material",
+      "uuid": "c99c3e74-3476-4a6d-9075-c9f30178df32@784b7",
+      "displayName": "",
+      "id": "784b7",
+      "name": "hatchet_LOD3.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eeea5": {
+      "importer": "gltf-scene",
+      "uuid": "c99c3e74-3476-4a6d-9075-c9f30178df32@eeea5",
+      "displayName": "",
+      "id": "eeea5",
+      "name": "tool_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "c99c3e74-3476-4a6d-9075-c9f30178df32@eeea5",
+    "assetFinder": {
+      "meshes": [
+        "c99c3e74-3476-4a6d-9075-c9f30178df32@1df2c"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c99c3e74-3476-4a6d-9075-c9f30178df32@784b7"
+      ],
+      "scenes": [
+        "c99c3e74-3476-4a6d-9075-c9f30178df32@eeea5"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

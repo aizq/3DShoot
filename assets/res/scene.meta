@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "34bd48b7-dfc1-4569-bcca-dcd9e7df89cb",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "compressionType": {},
+    "isRemoteBundle": {},
+    "bundleName": "scene",
+    "priority": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "3200bc7d-07c7-4fb4-b0d1-5835ef73d018",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "pistol_0",
+    "loadMode": "1"
+  }
+}

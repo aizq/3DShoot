@@ -1,0 +1,139 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288",
+  "files": [],
+  "subMetas": {
+    "36216": {
+      "importer": "gltf-mesh",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@36216",
+      "displayName": "",
+      "id": "36216",
+      "name": "UCX_big_door_lod_1_pCube1-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7e1aa": {
+      "importer": "gltf-mesh",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@7e1aa",
+      "displayName": "",
+      "id": "7e1aa",
+      "name": "big_door_lod_1_pCube1-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "684cf": {
+      "importer": "gltf-mesh",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@684cf",
+      "displayName": "",
+      "id": "684cf",
+      "name": "big_door_lod_1_pCube1-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ca3ee": {
+      "importer": "gltf-mesh",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@ca3ee",
+      "displayName": "",
+      "id": "ca3ee",
+      "name": "big_door_lod_1_pCube1-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5d35": {
+      "importer": "gltf-material",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@d5d35",
+      "displayName": "",
+      "id": "d5d35",
+      "name": "lambert19.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d369e": {
+      "importer": "gltf-scene",
+      "uuid": "f5433bca-7d1d-418b-86d7-2ae4fda26288@d369e",
+      "displayName": "",
+      "id": "d369e",
+      "name": "big_door_lod.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "f5433bca-7d1d-418b-86d7-2ae4fda26288@d369e",
+    "assetFinder": {
+      "meshes": [
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@7e1aa",
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@684cf",
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@ca3ee",
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@36216"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@d5d35"
+      ],
+      "scenes": [
+        "f5433bca-7d1d-418b-86d7-2ae4fda26288@d369e"
+      ]
+    },
+    "normals": 3,
+    "tangents": 2,
+    "skipValidation": true,
+    "disableMeshSplit": true,
+    "promoteSingleRootNode": true
+  }
+}

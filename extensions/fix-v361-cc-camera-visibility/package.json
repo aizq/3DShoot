@@ -1,0 +1,26 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "fix-v361-cc-camera-visibility",
+    "description": "i18n:fix-v361-cc-camera-visibility.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@types/node": "^16.0.1",
+        "typescript": "^4.3.4"
+    },
+    "author": "Cocos Creator",
+    "editor": "=3.6.1",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    },
+    "contributions": {
+        "inspector": {
+            "header": {
+                "node": {
+                    "cc.Camera": "./static/cc-camera-footer.js"
+                }
+            }
+        }
+    }
+}

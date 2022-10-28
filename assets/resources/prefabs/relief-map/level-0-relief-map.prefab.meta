@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "5ceef40c-4ea7-4cda-9f84-44f8711568bf",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "level-0-relief-map",
+    "loadMode": "2"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "56968515-af01-4c03-8f4d-01bceae40bbb",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "eab9c": {
+      "importer": "gltf-animation",
+      "uuid": "56968515-af01-4c03-8f4d-01bceae40bbb@eab9c",
+      "displayName": "",
+      "id": "eab9c",
+      "name": "idle-aim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2c663": {
+      "importer": "gltf-scene",
+      "uuid": "56968515-af01-4c03-8f4d-01bceae40bbb@2c663",
+      "displayName": "",
+      "id": "2c663",
+      "name": "idle-aim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idle-aim",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "56968515-af01-4c03-8f4d-01bceae40bbb@2c663",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "56968515-af01-4c03-8f4d-01bceae40bbb@2c663"
+      ]
+    }
+  }
+}

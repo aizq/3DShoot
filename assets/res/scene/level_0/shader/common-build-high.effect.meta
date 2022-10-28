@@ -1,0 +1,43 @@
+{
+  "ver": "1.5.9",
+  "importer": "effect",
+  "imported": true,
+  "uuid": "d90df7d5-d6ca-4277-9475-b894e727218c",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "combinations": [
+      {
+        "USE_INSTANCING": [
+          false,
+          true
+        ],
+        "USE_NORMAL_MAP": [
+          false,
+          true
+        ],
+        "USE_ALBEDO_MAP": [
+          false,
+          true
+        ],
+        "NORMAL_UV": [
+          "v_uv"
+        ],
+        "ALBEDO_UV": [
+          "v_uv"
+        ],
+        "USE_ALPHA_TEST": [
+          true,
+          false
+        ],
+        "ALPHA_TEST_CHANNEL": [
+          "a",
+          "r"
+        ]
+      },
+      {}
+    ]
+  }
+}

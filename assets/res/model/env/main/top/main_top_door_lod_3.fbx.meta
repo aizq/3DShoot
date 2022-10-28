@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5c9f8539-47db-470a-9df0-7ab2ba383fa4",
+  "files": [],
+  "subMetas": {
+    "0af3d": {
+      "importer": "gltf-mesh",
+      "uuid": "5c9f8539-47db-470a-9df0-7ab2ba383fa4@0af3d",
+      "displayName": "",
+      "id": "0af3d",
+      "name": "door.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b35e7": {
+      "importer": "gltf-material",
+      "uuid": "5c9f8539-47db-470a-9df0-7ab2ba383fa4@b35e7",
+      "displayName": "",
+      "id": "b35e7",
+      "name": "door1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5b3d": {
+      "importer": "gltf-scene",
+      "uuid": "5c9f8539-47db-470a-9df0-7ab2ba383fa4@b5b3d",
+      "displayName": "",
+      "id": "b5b3d",
+      "name": "main_top_door_lod_3.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "5c9f8539-47db-470a-9df0-7ab2ba383fa4@b5b3d",
+    "assetFinder": {
+      "meshes": [
+        "5c9f8539-47db-470a-9df0-7ab2ba383fa4@0af3d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5c9f8539-47db-470a-9df0-7ab2ba383fa4@b35e7"
+      ],
+      "scenes": [
+        "5c9f8539-47db-470a-9df0-7ab2ba383fa4@b5b3d"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

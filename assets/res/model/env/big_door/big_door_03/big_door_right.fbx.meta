@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d",
+  "files": [],
+  "subMetas": {
+    "8b7b7": {
+      "importer": "gltf-mesh",
+      "uuid": "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@8b7b7",
+      "displayName": "",
+      "id": "8b7b7",
+      "name": "main_big_door_0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8109": {
+      "importer": "gltf-material",
+      "uuid": "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@d8109",
+      "displayName": "",
+      "id": "d8109",
+      "name": "None.002.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7480a": {
+      "importer": "gltf-scene",
+      "uuid": "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@7480a",
+      "displayName": "",
+      "id": "7480a",
+      "name": "big_door_right.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@7480a",
+    "assetFinder": {
+      "meshes": [
+        "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@8b7b7"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@d8109"
+      ],
+      "scenes": [
+        "61a2634c-a2c5-4c53-bc4b-44423d8c9d6d@7480a"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

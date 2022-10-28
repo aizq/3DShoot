@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "e3375ebf-beb7-4f8d-af42-ed1e12c3a3a5",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "zombie_bald",
+    "loadMode": "2"
+  }
+}

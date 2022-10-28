@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4",
+  "files": [],
+  "subMetas": {
+    "65737": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@65737",
+      "displayName": "",
+      "id": "65737",
+      "name": "main_dong_main_dong_001-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "93416": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@93416",
+      "displayName": "",
+      "id": "93416",
+      "name": "main_dong_main_dong_001-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bfdfc": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@bfdfc",
+      "displayName": "",
+      "id": "bfdfc",
+      "name": "main_dong_main_dong_001-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a90e8": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@a90e8",
+      "displayName": "",
+      "id": "a90e8",
+      "name": "main_dong_main_dong_001-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "880de": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@880de",
+      "displayName": "",
+      "id": "880de",
+      "name": "main_dong_main_dong_001-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "14acd": {
+      "importer": "gltf-mesh",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@14acd",
+      "displayName": "",
+      "id": "14acd",
+      "name": "UCX_main_dong_main_dong_001-5.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bb237": {
+      "importer": "gltf-material",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@bb237",
+      "displayName": "",
+      "id": "bb237",
+      "name": "None_019.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34aff": {
+      "importer": "gltf-scene",
+      "uuid": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@34aff",
+      "displayName": "",
+      "id": "34aff",
+      "name": "dong.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "8a05999a-4721-4fce-aa8c-fa1110acc7f4@34aff",
+    "assetFinder": {
+      "meshes": [
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@65737",
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@bfdfc",
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@93416",
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@a90e8",
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@880de",
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@14acd"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@bb237"
+      ],
+      "scenes": [
+        "8a05999a-4721-4fce-aa8c-fa1110acc7f4@34aff"
+      ]
+    }
+  }
+}

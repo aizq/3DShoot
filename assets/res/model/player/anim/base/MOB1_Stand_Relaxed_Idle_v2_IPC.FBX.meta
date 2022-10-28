@@ -1,0 +1,87 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "525978a1-d9d8-4b6b-a8df-d3da1576d2b0",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "0969b": {
+      "importer": "gltf-animation",
+      "uuid": "525978a1-d9d8-4b6b-a8df-d3da1576d2b0@0969b",
+      "displayName": "",
+      "id": "0969b",
+      "name": "stand.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 6.133333206176758
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2ab73": {
+      "importer": "gltf-scene",
+      "uuid": "525978a1-d9d8-4b6b-a8df-d3da1576d2b0@2ab73",
+      "displayName": "",
+      "id": "2ab73",
+      "name": "MOB1_Stand_Relaxed_Idle_v2_IPC.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 6.133333206176758,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "stand",
+            "from": 0,
+            "to": 6.133333206176758,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "525978a1-d9d8-4b6b-a8df-d3da1576d2b0@2ab73",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "525978a1-d9d8-4b6b-a8df-d3da1576d2b0@2ab73"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

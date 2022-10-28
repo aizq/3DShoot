@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7a2cca38-eddc-4826-a5a7-68e37bdaa041",
+  "files": [],
+  "subMetas": {
+    "67844": {
+      "importer": "gltf-scene",
+      "uuid": "7a2cca38-eddc-4826-a5a7-68e37bdaa041@67844",
+      "displayName": "",
+      "id": "67844",
+      "name": "big_door.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8162": {
+      "importer": "gltf-mesh",
+      "uuid": "7a2cca38-eddc-4826-a5a7-68e37bdaa041@b8162",
+      "displayName": "",
+      "id": "b8162",
+      "name": "pCube1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5d35": {
+      "importer": "gltf-material",
+      "uuid": "7a2cca38-eddc-4826-a5a7-68e37bdaa041@d5d35",
+      "displayName": "",
+      "id": "d5d35",
+      "name": "lambert19.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "7a2cca38-eddc-4826-a5a7-68e37bdaa041@67844",
+    "assetFinder": {
+      "meshes": [
+        "7a2cca38-eddc-4826-a5a7-68e37bdaa041@b8162"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7a2cca38-eddc-4826-a5a7-68e37bdaa041@d5d35"
+      ],
+      "scenes": [
+        "7a2cca38-eddc-4826-a5a7-68e37bdaa041@67844"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

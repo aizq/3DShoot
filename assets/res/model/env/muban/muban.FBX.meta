@@ -1,0 +1,134 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a",
+  "files": [],
+  "subMetas": {
+    "8573e": {
+      "importer": "gltf-mesh",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@8573e",
+      "displayName": "",
+      "id": "8573e",
+      "name": "muban_Box02-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b0974": {
+      "importer": "gltf-mesh",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@b0974",
+      "displayName": "",
+      "id": "b0974",
+      "name": "muban_Box02-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b7c3": {
+      "importer": "gltf-mesh",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@9b7c3",
+      "displayName": "",
+      "id": "9b7c3",
+      "name": "muban_Box02-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "474a9": {
+      "importer": "gltf-mesh",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@474a9",
+      "displayName": "",
+      "id": "474a9",
+      "name": "UCX_muban_Box02-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00138": {
+      "importer": "gltf-material",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@00138",
+      "displayName": "",
+      "id": "00138",
+      "name": "Material__26.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c5af4": {
+      "importer": "gltf-scene",
+      "uuid": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@c5af4",
+      "displayName": "",
+      "id": "c5af4",
+      "name": "muban.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@c5af4",
+    "assetFinder": {
+      "meshes": [
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@8573e",
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@b0974",
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@9b7c3",
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@474a9"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@00138"
+      ],
+      "scenes": [
+        "32a362bc-eacb-47e9-b2d1-8dddc79fda0a@c5af4"
+      ]
+    },
+    "disableMeshSplit": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

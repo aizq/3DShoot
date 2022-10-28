@@ -1,0 +1,152 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "56779093-7468-407f-854f-2ef53c0abc35",
+  "files": [],
+  "subMetas": {
+    "23727": {
+      "importer": "gltf-scene",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@23727",
+      "displayName": "",
+      "id": "23727",
+      "name": "SM_Bush2_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "63bbd": {
+      "importer": "gltf-mesh",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@63bbd",
+      "displayName": "",
+      "id": "63bbd",
+      "name": "SM_Bush2_01-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "15f96": {
+      "importer": "gltf-mesh",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@15f96",
+      "displayName": "",
+      "id": "15f96",
+      "name": "SM_Bush2_01-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be413": {
+      "importer": "gltf-mesh",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@be413",
+      "displayName": "",
+      "id": "be413",
+      "name": "SM_Bush2_01-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3e69b": {
+      "importer": "gltf-mesh",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@3e69b",
+      "displayName": "",
+      "id": "3e69b",
+      "name": "SM_Bush2_01-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1ecdc": {
+      "importer": "gltf-mesh",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@1ecdc",
+      "displayName": "",
+      "id": "1ecdc",
+      "name": "UCX_SM_Bush2_01-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1906b": {
+      "importer": "gltf-material",
+      "uuid": "56779093-7468-407f-854f-2ef53c0abc35@1906b",
+      "displayName": "",
+      "id": "1906b",
+      "name": "MI_Bush02.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "56779093-7468-407f-854f-2ef53c0abc35@23727",
+    "assetFinder": {
+      "meshes": [
+        "56779093-7468-407f-854f-2ef53c0abc35@63bbd",
+        "56779093-7468-407f-854f-2ef53c0abc35@15f96",
+        "56779093-7468-407f-854f-2ef53c0abc35@be413",
+        "56779093-7468-407f-854f-2ef53c0abc35@3e69b",
+        "56779093-7468-407f-854f-2ef53c0abc35@1ecdc"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "56779093-7468-407f-854f-2ef53c0abc35@1906b"
+      ],
+      "scenes": [
+        "56779093-7468-407f-854f-2ef53c0abc35@23727"
+      ]
+    }
+  }
+}

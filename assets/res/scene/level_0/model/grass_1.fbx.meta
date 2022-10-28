@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c93a7d9a-4c30-42f4-a666-a557fbb94fc4",
+  "files": [],
+  "subMetas": {
+    "73549": {
+      "importer": "gltf-scene",
+      "uuid": "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@73549",
+      "displayName": "",
+      "id": "73549",
+      "name": "grass_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97e2d": {
+      "importer": "gltf-mesh",
+      "uuid": "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@97e2d",
+      "displayName": "",
+      "id": "97e2d",
+      "name": "grass_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8109": {
+      "importer": "gltf-material",
+      "uuid": "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@d8109",
+      "displayName": "",
+      "id": "d8109",
+      "name": "None.002.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@73549",
+    "assetFinder": {
+      "meshes": [
+        "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@97e2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@d8109"
+      ],
+      "scenes": [
+        "c93a7d9a-4c30-42f4-a666-a557fbb94fc4@73549"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

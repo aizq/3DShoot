@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "05c08b93-e17d-43c4-b1f3-f3868d759f3c",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "zombie_devils",
+    "loadMode": "2"
+  }
+}

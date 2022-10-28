@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fa95f802-8b8e-4b07-a9f2-ddbff60126f8",
+  "files": [],
+  "subMetas": {
+    "4be95": {
+      "importer": "gltf-mesh",
+      "uuid": "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@4be95",
+      "displayName": "",
+      "id": "4be95",
+      "name": "main_big_door_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2aada": {
+      "importer": "gltf-material",
+      "uuid": "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@2aada",
+      "displayName": "",
+      "id": "2aada",
+      "name": "None.003.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72d7b": {
+      "importer": "gltf-scene",
+      "uuid": "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@72d7b",
+      "displayName": "",
+      "id": "72d7b",
+      "name": "big_door_left.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@72d7b",
+    "assetFinder": {
+      "meshes": [
+        "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@4be95"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@2aada"
+      ],
+      "scenes": [
+        "fa95f802-8b8e-4b07-a9f2-ddbff60126f8@72d7b"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

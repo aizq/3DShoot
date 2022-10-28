@@ -1,0 +1,85 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bb223a3d-10d1-4cbc-a166-4820810ae2c2",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "34966": {
+      "importer": "gltf-animation",
+      "uuid": "bb223a3d-10d1-4cbc-a166-4820810ae2c2@34966",
+      "displayName": "",
+      "id": "34966",
+      "name": "run-jump.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0.1,
+          "to": 0.8333333333333334
+        },
+        "events": [],
+        "speed": 1.2
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1cc69": {
+      "importer": "gltf-scene",
+      "uuid": "bb223a3d-10d1-4cbc-a166-4820810ae2c2@1cc69",
+      "displayName": "",
+      "id": "1cc69",
+      "name": "run-jump.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 1.4333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "run-jump",
+            "from": 0.1,
+            "to": 0.8333333333333334,
+            "wrapMode": 0,
+            "speed": 1.2
+          }
+        ]
+      }
+    ],
+    "redirect": "bb223a3d-10d1-4cbc-a166-4820810ae2c2@1cc69",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "bb223a3d-10d1-4cbc-a166-4820810ae2c2@1cc69"
+      ]
+    }
+  }
+}

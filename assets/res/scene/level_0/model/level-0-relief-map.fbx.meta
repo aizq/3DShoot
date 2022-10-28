@@ -1,0 +1,80 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3d5cf7ab-9646-4800-be1a-5c63daa6d195",
+  "files": [],
+  "subMetas": {
+    "687aa": {
+      "importer": "gltf-mesh",
+      "uuid": "3d5cf7ab-9646-4800-be1a-5c63daa6d195@687aa",
+      "displayName": "",
+      "id": "687aa",
+      "name": "node.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "3d5cf7ab-9646-4800-be1a-5c63daa6d195@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "286e1": {
+      "importer": "gltf-scene",
+      "uuid": "3d5cf7ab-9646-4800-be1a-5c63daa6d195@286e1",
+      "displayName": "",
+      "id": "286e1",
+      "name": "level-0-relief-map.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "3d5cf7ab-9646-4800-be1a-5c63daa6d195@286e1",
+    "assetFinder": {
+      "meshes": [
+        "3d5cf7ab-9646-4800-be1a-5c63daa6d195@687aa"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3d5cf7ab-9646-4800-be1a-5c63daa6d195@2deab"
+      ],
+      "scenes": [
+        "3d5cf7ab-9646-4800-be1a-5c63daa6d195@286e1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0",
+  "files": [],
+  "subMetas": {
+    "9ef54": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@9ef54",
+      "displayName": "",
+      "id": "9ef54",
+      "name": "main_garage_main_garage_003-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cc87e": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@cc87e",
+      "displayName": "",
+      "id": "cc87e",
+      "name": "main_garage_main_garage_003-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c74b": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@9c74b",
+      "displayName": "",
+      "id": "9c74b",
+      "name": "main_garage_main_garage_003-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4a11": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@d4a11",
+      "displayName": "",
+      "id": "d4a11",
+      "name": "main_garage_main_garage_003-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "53f2d": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@53f2d",
+      "displayName": "",
+      "id": "53f2d",
+      "name": "main_garage_main_garage_003-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2e390": {
+      "importer": "gltf-mesh",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@2e390",
+      "displayName": "",
+      "id": "2e390",
+      "name": "UCX_main_garage_main_garage_003-5.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06931": {
+      "importer": "gltf-material",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@06931",
+      "displayName": "",
+      "id": "06931",
+      "name": "None_010.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "21fba": {
+      "importer": "gltf-scene",
+      "uuid": "755528ca-0d23-4d5a-9f07-b84046ce40d0@21fba",
+      "displayName": "",
+      "id": "21fba",
+      "name": "garage.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "755528ca-0d23-4d5a-9f07-b84046ce40d0@21fba",
+    "assetFinder": {
+      "meshes": [
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@9ef54",
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@cc87e",
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@9c74b",
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@d4a11",
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@53f2d",
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@2e390"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@06931"
+      ],
+      "scenes": [
+        "755528ca-0d23-4d5a-9f07-b84046ce40d0@21fba"
+      ]
+    }
+  }
+}

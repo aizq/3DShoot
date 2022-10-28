@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "34c87047-b9f8-489e-90e0-3dabc3069ccc",
+  "files": [],
+  "subMetas": {
+    "6e80d": {
+      "importer": "gltf-mesh",
+      "uuid": "34c87047-b9f8-489e-90e0-3dabc3069ccc@6e80d",
+      "displayName": "",
+      "id": "6e80d",
+      "name": "Box02_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db4d2": {
+      "importer": "gltf-material",
+      "uuid": "34c87047-b9f8-489e-90e0-3dabc3069ccc@db4d2",
+      "displayName": "",
+      "id": "db4d2",
+      "name": "02 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "77cd5": {
+      "importer": "gltf-material",
+      "uuid": "34c87047-b9f8-489e-90e0-3dabc3069ccc@77cd5",
+      "displayName": "",
+      "id": "77cd5",
+      "name": "镐头~.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8ee7": {
+      "importer": "gltf-scene",
+      "uuid": "34c87047-b9f8-489e-90e0-3dabc3069ccc@b8ee7",
+      "displayName": "",
+      "id": "b8ee7",
+      "name": "tool_9.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "34c87047-b9f8-489e-90e0-3dabc3069ccc@b8ee7",
+    "assetFinder": {
+      "meshes": [
+        "34c87047-b9f8-489e-90e0-3dabc3069ccc@6e80d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "34c87047-b9f8-489e-90e0-3dabc3069ccc@db4d2",
+        "34c87047-b9f8-489e-90e0-3dabc3069ccc@77cd5"
+      ],
+      "scenes": [
+        "34c87047-b9f8-489e-90e0-3dabc3069ccc@b8ee7"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

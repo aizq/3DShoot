@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "a19a30bd-c217-47f4-924c-1be5ff1a6beb",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "open-fire-effect",
+    "loadMode": "2"
+  }
+}

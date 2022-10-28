@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4e4448c7-ae74-479a-9b1f-55d59239edc1",
+  "files": [],
+  "subMetas": {
+    "2c8ef": {
+      "importer": "gltf-mesh",
+      "uuid": "4e4448c7-ae74-479a-9b1f-55d59239edc1@2c8ef",
+      "displayName": "",
+      "id": "2c8ef",
+      "name": "grp1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6d5ab": {
+      "importer": "gltf-material",
+      "uuid": "4e4448c7-ae74-479a-9b1f-55d59239edc1@6d5ab",
+      "displayName": "",
+      "id": "6d5ab",
+      "name": "mat0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "04b80": {
+      "importer": "gltf-scene",
+      "uuid": "4e4448c7-ae74-479a-9b1f-55d59239edc1@04b80",
+      "displayName": "",
+      "id": "04b80",
+      "name": "square_stool.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "4e4448c7-ae74-479a-9b1f-55d59239edc1@04b80",
+    "assetFinder": {
+      "meshes": [
+        "4e4448c7-ae74-479a-9b1f-55d59239edc1@2c8ef"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4e4448c7-ae74-479a-9b1f-55d59239edc1@6d5ab"
+      ],
+      "scenes": [
+        "4e4448c7-ae74-479a-9b1f-55d59239edc1@04b80"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

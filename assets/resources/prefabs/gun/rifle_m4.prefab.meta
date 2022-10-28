@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "30cd80fe-4a69-419c-beed-9cf734ab7f78",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "rifle_m4",
+    "loadMode": "1"
+  }
+}

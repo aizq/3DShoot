@@ -1,0 +1,88 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5bbead34-4363-4e72-9157-4e5d61e66029",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "bd832": {
+      "importer": "gltf-animation",
+      "uuid": "5bbead34-4363-4e72-9157-4e5d61e66029@bd832",
+      "displayName": "",
+      "id": "bd832",
+      "name": "fillbullet.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 5.333333492279053
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "18bbe": {
+      "importer": "gltf-scene",
+      "uuid": "5bbead34-4363-4e72-9157-4e5d61e66029@18bbe",
+      "displayName": "",
+      "id": "18bbe",
+      "name": "fillBullet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 5.333333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "fillbullet",
+            "from": 0,
+            "to": 5.333333492279053,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "5bbead34-4363-4e72-9157-4e5d61e66029@18bbe",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "5bbead34-4363-4e72-9157-4e5d61e66029@18bbe"
+      ]
+    }
+  }
+}

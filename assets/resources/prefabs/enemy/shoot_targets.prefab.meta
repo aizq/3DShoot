@@ -1,0 +1,14 @@
+{
+  "ver": "1.1.40",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "b56a5d53-af53-4dd5-a1a0-438624e8b12a",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "shoot_targets",
+    "loadMode": "2"
+  }
+}

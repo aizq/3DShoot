@@ -1,0 +1,60 @@
+{
+  "__version__": "1.0.2",
+  "general": {
+    "designResolution": {
+      "width": 1280,
+      "height": 720,
+      "fitWidth": false,
+      "fitHeight": true
+    },
+    "renderPipeline": "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+  },
+  "physics": {
+    "gravity": {
+      "y": -10
+    },
+    "defaultMaterial": {
+      "restitution": 0,
+      "friction": 1,
+      "spinningFriction": 0,
+      "rollingFriction": 0
+    }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "custom_joint_texture_layouts": [
+    {
+      "name": "player",
+      "textureLength": 384,
+      "contents": [
+        {
+          "skeleton": "aa887879-d6e3-47c1-9f72-5811b8dbc41f@438fe",
+          "clips": [
+            "6a7ebb0b-300e-4786-89c4-f2bb838de6c5@cf5ee",
+            "e76f992b-5847-4dee-8d66-8cec323ade93@0969b",
+            "41b63ad1-c353-4aad-aa05-e69ca2a6bf79@7f3dc",
+            "cafea10a-5680-4346-8fe7-e231d66f43eb@ea6d5",
+            "68073aba-04d9-46d9-9363-eaa1d7ad3334@61582",
+            "dba3f703-4c23-4564-b7e2-9d4ed0a9ee88@7d76f",
+            "a7edf718-0544-4510-a2fa-bb1fe649f162@0f7be",
+            "445b1fb5-65e9-4211-9f9a-553147a477d7@48669",
+            "200e0860-0aaa-46b3-b1ab-c1393e61ccce@59388",
+            "bd84cc9a-fdea-459a-813b-1f64937a6ca9@dc926"
+          ]
+        }
+      ]
+    }
+  ],
+  "script": {
+    "loose": false
+  },
+  "layer": [
+    {
+      "name": "MAIN_PLAYER",
+      "value": 524288
+    }
+  ]
+}

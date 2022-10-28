@@ -1,0 +1,108 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0635708e-4fca-4bb0-9167-aacdc031a1c1",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "989ed": {
+      "importer": "gltf-animation",
+      "uuid": "0635708e-4fca-4bb0-9167-aacdc031a1c1@989ed",
+      "displayName": "",
+      "id": "989ed",
+      "name": "attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 0,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.6666667461395264
+        },
+        "events": [
+          {
+            "frame": 1,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1,
+            "func": "startAttack",
+            "params": []
+          },
+          {
+            "frame": 1.1333333333333333,
+            "func": "",
+            "params": []
+          },
+          {
+            "frame": 1.1333333333333333,
+            "func": "endAttack",
+            "params": []
+          }
+        ],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1
+      },
+      "ver": "1.0.16",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "2a3cc": {
+      "importer": "gltf-scene",
+      "uuid": "0635708e-4fca-4bb0-9167-aacdc031a1c1@2a3cc",
+      "displayName": "",
+      "id": "2a3cc",
+      "name": "attack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Unreal Take",
+        "duration": 2.6666667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "attack",
+            "from": 0,
+            "to": 2.6666667461395264,
+            "wrapMode": 0
+          }
+        ]
+      }
+    ],
+    "redirect": "0635708e-4fca-4bb0-9167-aacdc031a1c1@2a3cc",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "0635708e-4fca-4bb0-9167-aacdc031a1c1@2a3cc"
+      ]
+    }
+  }
+}

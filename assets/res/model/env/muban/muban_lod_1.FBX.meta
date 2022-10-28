@@ -1,0 +1,181 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3",
+  "files": [],
+  "subMetas": {
+    "8f3a6": {
+      "importer": "gltf-mesh",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@8f3a6",
+      "displayName": "",
+      "id": "8f3a6",
+      "name": "MeshGroup-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2bbc2": {
+      "importer": "gltf-mesh",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@2bbc2",
+      "displayName": "",
+      "id": "2bbc2",
+      "name": "MeshGroup-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4752": {
+      "importer": "gltf-mesh",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@b4752",
+      "displayName": "",
+      "id": "b4752",
+      "name": "MeshGroup-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f151": {
+      "importer": "gltf-mesh",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@4f151",
+      "displayName": "",
+      "id": "4f151",
+      "name": "MeshGroup-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4f45": {
+      "importer": "gltf-embeded-image",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@d4f45",
+      "displayName": "",
+      "id": "d4f45",
+      "name": "Map #2.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "1da29": {
+      "importer": "texture",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@1da29",
+      "displayName": "",
+      "id": "1da29",
+      "name": "Map #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ac76bd89-36ef-4087-bba0-11f2a13baef3@d4f45"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c28f0": {
+      "importer": "gltf-material",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@c28f0",
+      "displayName": "",
+      "id": "c28f0",
+      "name": "Material #26.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35d5c": {
+      "importer": "gltf-scene",
+      "uuid": "ac76bd89-36ef-4087-bba0-11f2a13baef3@35d5c",
+      "displayName": "",
+      "id": "35d5c",
+      "name": "muban_lod_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #2",
+        "uri": "ac76bd89-36ef-4087-bba0-11f2a13baef3@d4f45"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "ac76bd89-36ef-4087-bba0-11f2a13baef3@35d5c",
+    "assetFinder": {
+      "meshes": [
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@8f3a6",
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@2bbc2",
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@b4752",
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@4f151"
+      ],
+      "skeletons": [],
+      "textures": [
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@1da29"
+      ],
+      "materials": [
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@c28f0"
+      ],
+      "scenes": [
+        "ac76bd89-36ef-4087-bba0-11f2a13baef3@35d5c"
+      ]
+    },
+    "disableMeshSplit": true,
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

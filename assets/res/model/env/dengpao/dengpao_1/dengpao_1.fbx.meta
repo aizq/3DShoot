@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.1",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "dbd2bac8-e85f-470e-9b2d-d554f017d69a",
+  "files": [],
+  "subMetas": {
+    "a1ad7": {
+      "importer": "gltf-mesh",
+      "uuid": "dbd2bac8-e85f-470e-9b2d-d554f017d69a@a1ad7",
+      "displayName": "",
+      "id": "a1ad7",
+      "name": "opora_spiral1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fdb8d": {
+      "importer": "gltf-mesh",
+      "uuid": "dbd2bac8-e85f-470e-9b2d-d554f017d69a@fdb8d",
+      "displayName": "",
+      "id": "fdb8d",
+      "name": "spiral2.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "dbd2bac8-e85f-470e-9b2d-d554f017d69a@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9027": {
+      "importer": "gltf-scene",
+      "uuid": "dbd2bac8-e85f-470e-9b2d-d554f017d69a@c9027",
+      "displayName": "",
+      "id": "c9027",
+      "name": "dengpao_1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "dbd2bac8-e85f-470e-9b2d-d554f017d69a@c9027",
+    "assetFinder": {
+      "meshes": [
+        "dbd2bac8-e85f-470e-9b2d-d554f017d69a@a1ad7",
+        "dbd2bac8-e85f-470e-9b2d-d554f017d69a@fdb8d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "dbd2bac8-e85f-470e-9b2d-d554f017d69a@2deab"
+      ],
+      "scenes": [
+        "dbd2bac8-e85f-470e-9b2d-d554f017d69a@c9027"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false
+    }
+  }
+}

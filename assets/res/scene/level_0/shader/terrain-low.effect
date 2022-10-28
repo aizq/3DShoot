@@ -1,0 +1,166 @@
+// Effect Syntax Guide: https://docs.cocos.com/creator/manual/zh/shader/index.html
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert # builtin header
+      frag: unlit-fs:frag
+      properties: &props
+        weather:              { value: 0.0,}
+        alphaDiscard:         { value: 0.0, editor: {  slide: true, range: [0, 1.0], step: 0.001 } }
+        mainTexture:    { value: white }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+
+        #第一张采样贴图
+        terrain_sample_0:     {value: white}
+        #第一张采样图 r 通道贴图
+        terrain_0_r:          {value: white}
+        #第一张采样图 g 通道贴图
+        terrain_0_g:          {value: white}
+        #第一张采样图 b 通道贴图
+        terrain_0_b:          {value: white}
+       
+        #第二张采样贴图
+        terrain_sample_1:     {value: white}
+        #第一张采样图 r 通道贴图
+        terrain_1_r:          {value: white}
+        #第一张采样图 g 通道贴图
+        terrain_1_g:          {value: white}
+        #第一张采样图 b 通道贴图
+        terrain_1_b:          {value: white}
+  - name: transparent
+    passes:
+    - vert: unlit-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+CCProgram unlit-vs %{
+  precision highp float;
+  #include <legacy/input-standard>
+  #include <builtin/uniforms/cc-global>
+  #include <legacy/local-batch>
+  #include <legacy/input-standard>
+  #include <legacy/fog-vs>
+  #include <legacy/shadow-map-vs>
+
+  in vec4 a_color;
+  #if HAS_SECOND_UV
+    in vec2 a_texCoord1;
+  #endif
+
+  out vec3 v_position;
+  out vec3 v_normal;
+  out vec3 v_tangent;
+  out vec3 v_bitangent;
+  out vec2 v_uv;
+  out vec2 v_uv1;
+  out vec4 v_color;
+
+  vec4 vert () {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    vec4 pos = matWorld * In.position;
+
+    v_position = pos.xyz;
+    v_normal = normalize((matWorldIT * vec4(In.normal, 0.0)).xyz);
+    v_tangent = normalize((matWorld * vec4(In.tangent.xyz, 0.0)).xyz);
+    v_bitangent = cross(v_normal, v_tangent) * In.tangent.w; // note the cross order
+
+    v_uv = a_texCoord;
+    #if HAS_SECOND_UV
+      v_uv1 = a_texCoord1;
+    #endif
+    v_color = a_color;
+
+    CC_TRANSFER_FOG(pos);
+    CC_TRANSFER_SHADOW(pos);
+
+    return cc_matProj * (cc_matView * matWorld) * In.position;
+  }
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+
+  in vec2 v_uv;
+  in vec3 v_position;
+  in vec3 v_normal;
+
+  uniform sampler2D mainTexture;
+  uniform sampler2D terrain_sample_0;
+  uniform sampler2D terrain_0_r;
+  uniform sampler2D terrain_0_g;
+  uniform sampler2D terrain_0_b;
+
+  uniform sampler2D terrain_sample_1;
+  uniform sampler2D terrain_1_r;
+  uniform sampler2D terrain_1_g;
+  uniform sampler2D terrain_1_b;
+
+  uniform Constant {
+    vec4 mainColor;
+    float weather;
+    float alphaDiscard;
+  };
+
+  vec4 frag () {
+    vec2 uv=v_uv;
+    vec4 col = mainColor * texture(mainTexture, uv*40.0);
+
+//第一张采样贴图进行采样
+    vec3 mormalStrength_0=vec3(1.0,2.0,1.0);
+    vec2 terrain_0_uv=uv;
+    vec4 terrain_0_col= texture(terrain_sample_0, terrain_0_uv);
+    // r通道进行处理  水泥地
+    vec2 terrain_0_r_uv=uv*60.0;
+    vec4 terrain_0_r_col= texture(terrain_0_r, terrain_0_r_uv);
+    col.rbg=mix( col.rbg,terrain_0_r_col.rbg,  terrain_0_col.r);
+
+    
+    // g通道进行处理
+    vec2 terrain_0_g_uv=uv*60.0;  //草地
+    vec4 terrain_0_g_col= texture(terrain_0_g, terrain_0_g_uv);
+    col.rbg=mix( col.rbg,terrain_0_g_col.rbg,  terrain_0_col.g);
+
+    
+    // b通道进行处理  石子路面
+    vec2 terrain_0_b_uv=uv*50.0;  
+    vec4 terrain_0_b_col= texture(terrain_0_b, terrain_0_b_uv);
+    col.rbg=mix(col.rbg,terrain_0_b_col.rbg,   terrain_0_col.b);
+
+
+
+    //第二张采样贴图进行采样
+    vec3 mormalStrength_1=vec3(1.0,1.0,1.0);
+    vec2 terrain_1_uv=uv;
+    vec4 terrain_1_col= texture(terrain_sample_1, terrain_1_uv);
+    // r通道进行处理 碎砖块
+    vec2 terrain_1_r_uv=uv*80.0;
+    vec4 terrain_1_r_col= texture(terrain_1_r, terrain_1_r_uv);
+    col.rbg=mix(col.rbg ,terrain_1_r_col.rbg, terrain_1_col.r);
+
+
+
+    if(col.r<alphaDiscard) discard;
+    if(weather==2.0){
+        float snowAlpha=dot(v_normal,vec3(0.0,1.0,0.0));   //1 平行  0：垂直
+        col.rgb=mix(col.rgb,vec3(1.0,1.0,1.0),snowAlpha);
+    }
+    CC_APPLY_FOG(col, v_position);
+    return CCFragOutput(col);
+  }
+}%
